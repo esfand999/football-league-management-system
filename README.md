@@ -17,22 +17,23 @@ An overloaded constructor by the name of interface is used to send objects and t
 Our project consists of two entities and a composition of the two in another:
 <h3>•	Player </h3>
 - playerID
--	firstName
--	lastName
--	salary
--	position
--	country
--	status
+- firstName
+- lastName
+- salary
+- position
+- country
+- status
 
 <h3>•	Team </h3>
--	teamID
--	teamName
--	owner
--	teamCoach
+- teamID
+- teamName
+- owner
+- teamCoach
 
 <h3>•	manageTeam </h3>
--	teamID
--	ArrayList<player>
+- teamID
+- ArrayList<player>
 
+ 
 A team can consist of 11 players.
 The manageTeam class is composed of a team ID and consists of an array list of players assigned to the team.
