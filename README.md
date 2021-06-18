@@ -138,29 +138,37 @@ The manageTeam class is used to assign players to a team.
 •	setPlayer(player)
  
 <h1> Images: </h1>
- <h2> Main Menu </h2>
+ 
+<h2> Main Menu </h2>
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588434-8753c880-d078-11eb-856f-6225402efe12.png)
  
- <h2> Team Menu: <h2>
+<h2> Team Menu: <h2>
   
 ![image](https://user-images.githubusercontent.com/61494697/122588505-9e92b600-d078-11eb-8a1c-06b1d655e664.png)
 
-  Viewing all teams
+Viewing all teams:
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588553-ace0d200-d078-11eb-838e-464c1b24954b.png)
   
-  Adding a team
+Adding a team:
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588625-bd914800-d078-11eb-88ed-3ead671f4167.png)
   
-  Searching for a team
+Searching for a team:
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588638-c1bd6580-d078-11eb-9659-073e0e40f607.png)
 
- <h2> Player Menu: <h2>
+<h2> Player Menu: <h2>
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588892-0f39d280-d079-11eb-9f10-b5dbb75a1978.png)
 
-  Viewing all players
+Viewing all players:
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588901-119c2c80-d079-11eb-9714-a682357b9fd0.png)
 
-  Searching for a player
+Searching for a player:
+ 
 ![image](https://user-images.githubusercontent.com/61494697/122588931-195bd100-d079-11eb-9033-0d27b8a5e482.png)
 
 
