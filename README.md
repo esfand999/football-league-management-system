@@ -37,3 +37,102 @@ Our project consists of two entities and a composition of the two in another:
  
 A team can consist of 11 players.
 The manageTeam class is composed of a team ID and consists of an array list of players assigned to the team.
+
+ 
+ <h1> Functions of Classes: </h1>
+ <h2> 1.	UDPServer </h2>
+This class holds the code for the server side of the application.
+
+<h3> Functions: </h3>
+•	addTeam(team)
+•	searchTeam(String)
+•	viewAllTeams()
+
+•	addPlayer(player)
+•	searchPlayer(String)
+•	viewAllPlayers()
+
+•	addToTeam(String teamid, String playerid)
+•	viewAvailablePlayers()
+•	viewTeamsMgmt
+•	searchMgmtTeam()
+
+•	readTeamFile()
+•	readPlayerFile()
+•	readTeamMgmtFile()
+
+•	writeObjectToTeamFile(team)
+•	writeObjectToPlayerFile(player)
+•	writeObjectToTeamMgmtFile(manageTeam)
+
+•	sendData(Object)
+
+
+
+ <h2> 2.	UDPClient </h2>
+This class holds the code for the client side of the application.
+
+<h3> Functions: </h3>
+•	addTeam(Interface)
+•	searchTeam(Interface)
+•	viewAllTeams(Interface)
+
+•	addPlayer(Interface)
+•	searchPlayer(Interface)
+•	viewAllPlayers(Interface)
+
+•	sendData(Object, port)
+
+
+
+ <h2> 3.	Interface </h2>
+The interface class contains an overloaded object consisting of an entity, a menu operation and an ID number of an entity that is sent to the client side to perform functions accordingly.
+ <h3> Functions: </h3>
+•	getTeam()
+•	getPlayer()
+•	getOperation()
+•	getID()
+
+•	setTeam(team)
+•	setPlayer(player)
+•	setOperation(String)
+•	setID(String)
+
+<h2> 4.	Player </h2?
+The player class creates a player object.
+ <h3> Functions: </h3>
+•	getPlayerID()
+•	getFirstName()
+•	getLastName()
+•	getSalary()
+•	getCountry()
+•	getStatus()
+
+•	setPlayerID(String)
+•	setFirstName(String)
+•	setLastName(String)
+•	setSalary(String)
+•	setCountry(String)
+•	setStatus(String)
+
+ <h2> 5.	Team </h2>
+The team class creates a team object.
+ <h3> Functions: </h3>
+•	getTeamID()
+•	getTeamName()
+•	getTeamOwner()
+•	getTeamCoach()
+
+•	setTeamID()
+•	setTeamName()
+•	setTeamOwner()
+•	setTeamCoach()
+
+ <h2> 6.	manageTeam </h2>
+The manageTeam class is used to assign players to a team.
+<h3> Functions: </h3>
+•	getTeamID()
+•	getPlayer()
+
+•	setTeamID(team)
+•	setPlayer(player)
